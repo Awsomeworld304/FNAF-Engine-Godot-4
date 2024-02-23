@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://djti2kjq5ga6v"]
+
+[ext_resource type="Script" path="res://Scripts/title_menu.gd" id="1_l33nt"]
+
+[node name="title_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l33nt")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="BG" type="ColorRect" parent="ParallaxBackground/ParallaxLayer"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.00784314, 0.00784314, 0.00784314, 1)
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.8, 0.8)
+
+[node name="ColorRect" type="ColorRect" parent="ParallaxBackground/ParallaxLayer2"]
+offset_left = 584.0
+offset_top = 403.0
+offset_right = 1143.0
+offset_bottom = 573.0
