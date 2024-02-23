@@ -1,5 +1,5 @@
 # WARNING: THIS IS STILL WIP!
-# FNAF Engine for Godot 4.x (4.2.1) ![Progress](https://progress-bar.dev/28/)
+# FNAF Engine for Godot 4.x (4.2.1) ![Progressw](https://progress-bar.dev/4/)
 This is an engine meant for beginer developers to start in Godot with FNaF games in mind.\
 Do not use this if you are looking for a shortcut, this is not for you.\
 But instead, if you're willing to put in the effort, this will help you along the way.\
