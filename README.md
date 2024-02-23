@@ -3,7 +3,7 @@
 This is an engine meant for beginer developers to start in Godot with FNaF games in mind.\
 Do not use this if you are looking for a shortcut, this is not for you.\
 But instead, if you're willing to put in the effort, this will help you along the way.\
-Alright with that out of the way, let's get started shall we?
+Alright with that out of the way, let's get started.
 ## Build Instructions
 First, start by cloning the repo via 'git clone' in your terminal (or cmd of you're on Windows.')\
 Next, import the project in Godots project manager.\
