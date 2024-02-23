@@ -11,7 +11,26 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_l33nt")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="BG" type="ColorRect" parent="."]
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
+color = Color(0.00784314, 0.00784314, 0.00784314, 1)
+
+[node name="load" type="Button" parent="."]
+offset_left = 306.0
+offset_top = 473.0
+offset_right = 837.0
+offset_bottom = 640.0
+text = "load"
+
+[node name="save" type="Button" parent="."]
+layout_mode = 0
+offset_left = 285.0
+offset_top = 195.0
+offset_right = 816.0
+offset_bottom = 362.0
+text = "save"
+
+[connection signal="button_up" from="load" to="." method="_on_load_button_up"]
+[connection signal="button_up" from="save" to="." method="_on_save_button_up"]

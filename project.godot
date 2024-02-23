@@ -12,8 +12,14 @@ config_version=5
 
 config/name="FNAFThing"
 config/version="0.0.0.1"
+run/main_scene="res://Scenes/title_menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://Lib/game_manager.gd"
+SaveTools="*res://Lib/save_tools.gd"
 
 [display]
 
